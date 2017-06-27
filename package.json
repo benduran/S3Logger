@@ -1,0 +1,33 @@
+{
+  "name": "s3logger",
+  "version": "0.1.0",
+  "description": "A simple, naive application logging utility that can integrate / write to a file in an AWS S3 bucket",
+  "main": "logging/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benduran/S3Logger.git"
+  },
+  "engines": {
+    "node": ">=7"
+  },
+  "keywords": [
+    "AWS",
+    "S3",
+    "log",
+    "logger",
+    "simple"
+  ],
+  "author": "Benjamin Duran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benduran/S3Logger/issues"
+  },
+  "homepage": "https://github.com/benduran/S3Logger#readme",
+  "dependencies": {
+    "aws-sdk": "^2.77.0",
+    "moment": "^2.18.1"
+  }
+}
