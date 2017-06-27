@@ -1,5 +1,5 @@
 {
-  "name": "s3logger",
+  "name": "simples3logger",
   "version": "0.1.0",
   "description": "A simple, naive application logging utility that can integrate / write to a file in an AWS S3 bucket",
   "main": "logging/index.js",
